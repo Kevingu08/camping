@@ -1,0 +1,53 @@
+.activities-container{
+    display: grid;
+    width: 70vw;
+    /* el auto permite centrar */
+    margin: 2rem auto;  
+    /* minmax: para minimo y maximo de los elemtnos del grid, esta linea es para el responsivo*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /*auto-fit rellena los espacios de manera dinamica*/
+    gap: 1.5rem;
+}
+
+.activity{
+    display: grid;
+    background: var(--clr-white);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+/* ????? */
+
+.activity-image{
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+/*  */
+
+.in-touch{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    margin-left: 3rem;
+}
+
+.subscribe{
+    border-radius: 2rem;
+    background: var(--clr-inner-bg);
+}
+
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.destinations-container{
+    text-align: center;
+}
+
+.cta-app-container{
+    display: flex;
+    gap: .5rem;
+}
